@@ -1,0 +1,51 @@
+.topContainer {
+    padding: 20px 80px 0px 20px !important;
+}
+
+.bodyContainer {
+    overflow-y: auto;
+    width: 100%;
+    height: calc(100vh - 150px);
+}
+
+.typeStyle {
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+}
+
+.userColor {
+    background: #5DDB7A;
+}
+
+.groupColor {
+    background: #D34875;
+}
+
+.schemaArrContainer {
+    border: 3px solid #6FA8DC;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+.addSchema {
+    width: 386.5px;
+    margin: 0 20px;
+}
+
+.removeContainer {
+    background-color: #F2FBF9;
+    width: 53px;
+    height: 53px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .minus {
+        width: 24px;
+        height: 4px;
+        background: #6B7F97;
+        border-radius: 10px;
+    }
+}
